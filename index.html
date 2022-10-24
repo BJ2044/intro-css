@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intro to CSS</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -18,8 +19,10 @@
             </ul>
         </nav>
     </header>
-    <p class="my-ps">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A exercitationem quasi, similique aperiam ducimus aut, error nisi neque numquam doloribus dolorum veritatis, accusantium facere incidunt. Impedit dicta quae facilis perferendis.</p>
-    <p class="my-ps">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas mollitia porro adipisci architecto? Numquam reiciendis rem laudantium saepe laborum at tenetur officia. Explicabo debitis voluptatum repudiandae aliquam labore expedita veritatis.
+    <button onclick="handleColorChange()">Rress Me</button>
+    <button onclick="handleAlert()">Show Alert</button>
+    <p class="my-ps my-width">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A exercitationem quasi, similique aperiam ducimus aut, error nisi neque numquam doloribus dolorum veritatis, accusantium facere incidunt. Impedit dicta quae facilis perferendis.</p>
+    <p class="my-ps my width">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas mollitia porro adipisci architecto? Numquam reiciendis rem laudantium saepe laborum at tenetur officia. Explicabo debitis voluptatum repudiandae aliquam labore expedita veritatis.
     Sint inventore unde dolorum consequatur repellat mollitia corporis! Delectus explicabo eveniet illum minus quod blanditiis animi, pariatur ipsa amet possimus veritatis iusto placeat culpa quas omnis illo deleniti ea distinctio!
     Qui, sed, quo inventore officia quibusdam et error beatae eius architecto dolorem, atque quaerat praesentium repellendus fugit eos. Atque iusto eligendi debitis iure accusamus magni sunt laborum minus, cumque perspiciatis?
     Harum iure magnam fugiat reprehenderit. Molestias, magni aspernatur, maxime rem vel quis quaerat laborum et laudantium esse tenetur quod illum suscipit eaque a similique amet itaque odio? Veritatis, quam nesciunt!
@@ -33,7 +36,16 @@
     <li></li>
     <h3>Boca Code Gang</h3>
 </footer>
+<main>
+    <div class="box">
+        <span>box1</span>
+        <span>2nd span</span>
+    </div>
+    <div><span>box2</span></div>
+    <div><span>box3</span></div>
+</main>
     <h3>What's goodie this is CSS</h3>
+<script src="scripts.js"></script>
 </body>
 <style>
     * {color: #008000;
@@ -58,10 +70,14 @@
     .my-ps {
         background-color: turquoise;
     }
+    .my-width {
+        width: 5;
+    }
    li {
        color: bisque
    }
    footer {
+       border-radius: 12px;
        background-color: black;
    }
 </style>
