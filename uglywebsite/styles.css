@@ -1,0 +1,83 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: cursive;
+}
+
+.topnav {
+    background-color:rgb(199, 31, 177);
+    overflow: hidden;
+    transform:matrix()
+}
+
+.topnav a {
+    float: left;
+    color: red;
+    padding: 14px 16px;
+    text-decoration: transparent;
+    font-size: 30px;
+}
+
+.topnav a:hover {
+    background-color: yellow;
+    color: yellowgreen;
+    ;
+}
+
+.container {
+    position: relative;
+}
+.container > img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+
+.text-block {
+    position: absolute;
+    background-color: purple;
+    color: orangered;
+    padding: 10px 20px;
+    bottom: 20px;
+    right: 20px;
+}
+
+.heading {
+    background-color:purple;
+    padding: 3rem;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(205, 50, 156);
+}
+
+.row {
+    background-color: #666;
+}
+
+.row:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.column {
+    float: left;
+    background-color:yellow;
+    /* padding: 10px; */
+    margin-left: 10px;
+    height: 8rem;
+    width: 30%;
+    text-align: center;
+    border: solid 2px #898989
+}
+
+@media (max-width: 600px){
+    .column {
+        width: 100%;
+    }
+}
+.marquee {
+    behavior: inherit;
+    }
