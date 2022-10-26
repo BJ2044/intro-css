@@ -10,7 +10,8 @@
 .topnav {
     background-color:rgb(199, 31, 177);
     overflow: hidden;
-    transform:matrix()
+    font-size: 5px;
+
 }
 
 .topnav a {
@@ -40,6 +41,7 @@
     position: absolute;
     background-color: purple;
     color: orangered;
+    font-size: xx-small;
     padding: 10px 20px;
     bottom: 20px;
     right: 20px;
